@@ -27,6 +27,7 @@ hd-iot init air_condition
 ```
 + `cd air_condition`
 分别按照顺序运行如下命令：
++ 安装依赖包：`npm install`
 + 启动本地的socket代理服务器：`npm run proxy`
 + 启动本地开发的https server，并打开浏览器:`npm run dev`, 在自动打开的默认浏览器（如果用户默认浏览器是ie，请将打开的url复制到chrome）上打开
 
